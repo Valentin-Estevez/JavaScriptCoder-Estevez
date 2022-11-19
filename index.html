@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
     <title>JavaScript</title>
 </head>
 <body>
-    <h1>bienvenidos a FRUTERIA MILENIO</h1>
-    <H2>La mejor calidad en frutas y verduras</H2>
-    <P>a continuacion seleccione el producto que desea adquirir..</P>
-    <div>
-        <ul>
-            <li>Tomate x kg: $200.-</li>
-            <li>Lechuga x kg: $250.-</li>
-            <li>Brocoli x kg: $300.-</li>
-            <li>palta x kg: $350.-</li>
-            <li>Berenjena x kg: $400.-</li>
-            <li>Zanahoria x kg: $230.-</li>
-            <li>Papa x kg: $210.-</li>
-            <li>Batata x kg: $280.-</li>
-            <li>Banana x kg: $500.-</li>
-            <li>Manzana x kg: $450.-</li>
-            <li>Pera x kg: $480.-</li>
-            <li>Naranja x kg: $320.-</li>               
-        
-        </ul>
+    <div class="nav-container">
+        <nav class="navbar">
+            <h1 class="navbar-logo">Carrito.</h1>
+            <h1 class="ver-carrito" id="verCarrito">🛒</h1>
+        </nav>
     </div>
-        
-    <script src="./app.js"></script>
+    <div class="banner">
+        <div class="banner-container">
+            <h1>Carrito del Milenio</h1>
+            <p>la mejor experiencia de compra</p>
+        </div>
+    </div>
+
+    <div id="shopContent" class="shop-content"></div>
+
+    <div id="modal-container" class="modal-container"></div>
+
+
+
+
+    <script src="./data.js"></script>    
+    <script src="./app.js"></script>    
 </body>
 </html>
