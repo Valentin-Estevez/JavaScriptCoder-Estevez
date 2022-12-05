@@ -123,6 +123,7 @@ body {
     z-index: 9;
     top: 12vh;
     scrollbar-color: none;
+    border-radius: 5%;
 }
 
 .modal-container::-webkit-scrollbar{
@@ -131,7 +132,7 @@ body {
 
 .modal-header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #413c37;
     color: rgb(255, 255, 255);
     width: 100%;
@@ -164,4 +165,31 @@ body {
     padding: 20px;
     text-align: center;
     padding-top: 20px;
+}
+
+.delete-product {
+    cursor: pointer;
+    color: #fb1010;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.cantidad-carrito{
+    background-color: #ffffff;
+    color: black;
+    border-radius: 30%;
+    font-size: 12px;
+    padding: 3px;
+    top: 34px;
+    right: 13px;
+    position: absolute;
+    display: none;
+}
+
+.sumar{
+    cursor: pointer;
+}
+
+.restar{
+    cursor: pointer;
 }
